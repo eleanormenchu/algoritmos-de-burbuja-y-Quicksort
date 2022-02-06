@@ -14,7 +14,6 @@ public class ArregloconNumerosAleatorios {
         for (int i = 0; i < NumerosAleatorios.length; i++) {
             System.out.println(i + "==>" + NumerosAleatorios[i]);
         }
-        //Metodo_borbuja();
         Metodo_quiksort(0,NumerosAleatorios.length-1);
         second_array();
         third_array();
